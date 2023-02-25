@@ -1,0 +1,560 @@
+/* custom css */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+body:not(.page-template-template-home) #cheader {
+	border-bottom: 10px solid #eee;
+}
+
+
+
+.header-home {
+	width: 0;
+	height: 0;
+	
+}
+
+
+#cheader {
+	border-bottom: 2px solid #eee;
+}
+
+#cheader .menu {
+	list-style: none;
+	margin: 0;
+	    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+#cheader .menu li {
+	display: inline-block;
+	margin-right: 20px;
+}
+#cheader a,#cheader a:hover {
+	color: #231f20;
+	text-decoration: none;
+}
+#cheader .menu li a {
+	
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+
+#cheader .search {
+	font-weight: bold;
+}
+#cheader .middleflex {
+	display: flex;
+	align-items: center;
+}
+
+.carousel .carousel-item img {
+  max-height: 640px;
+  min-width: auto;
+}
+
+#carouselHome .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#carouselHome .carousel-indicators {
+	bottom: 30px;
+}
+
+.headingSmall {
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+.headingBig {
+	font-weight: 400 !important;
+	font-size: 2rem;
+}
+.expoDates {
+	font-weight: 500;
+}
+.expoDates span {
+	text-decoration: underline;
+	font-weight: 300;
+}
+
+.expoStatus {
+	text-transform: uppercase;
+	color: #a3252a;
+}
+
+.readmore,.readmore:active {
+	display: inline-block;
+	border:1px solid #231f20;
+	color: #231f20;
+	text-decoration: none;
+	padding: 7px 25px;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+.readmore:hover {
+	border:1px solid #000000;
+	background: #000000;
+	color: #fff;
+	text-decoration: none;
+}
+
+#expoCrono {
+	background: #231f20;
+	color: #fff;
+}
+
+
+.crononav {
+	display: block;
+	border:1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px 25px;
+	font-size: 1.3em;
+	font-weight: 400;
+	background:#231f20;
+}
+
+.crononav.current, .crononav:hover {
+	background:#fff;
+	color:#231f20;
+	text-decoration: none;
+}
+
+.seeall,.seeall:hover {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+}
+
+
+.details {
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    font-size: 1em;
+    font-weight: 400;
+    background: #231f20;
+}
+
+.details:hover {
+	background:#fff;
+	color:#231f20;
+	text-decoration: none;
+}
+
+
+#expoCrono h5 {
+	font-weight: 400;
+}
+
+.exponum {
+	font-weight: 300;
+}
+
+#vendaHome .seeall,#avendaContent .seeall {
+	color: #000;
+}
+
+.work {
+	width: 350px;
+}
+.grid-item img {
+	width: 100%;
+	max-width: 350px;
+}
+
+.grid-item {
+  margin-bottom: 30px;
+}
+
+#numbersHome {
+	background:#6d0100;
+}
+
+
+#newsHome {
+	background:#eaeaea;
+}
+
+
+.site-info {
+	border-top: 2px solid #b6b6b6;
+}
+
+.site-footer {
+	background:#fff;
+}
+
+#footerLinks a {
+	color: #231f20;
+	text-decoration: underline;
+	font-size: 0.9em;
+}
+
+
+.btnfooter {
+	display: block;
+	border:1px solid #231f20;
+	color: #231f20;
+	text-decoration: none;
+	padding: 7px 25px;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.btnfooter:hover {
+	border:1px solid #000000;
+	background: #000000;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.icons_counter {
+	display: flex;
+	text-align: left;
+}
+
+.icons_counter img {
+	margin-right: 20px;
+}
+.icons_counter .number_counter {
+	font-size: 2.2em;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 0;
+
+
+}
+
+.icons_counter .desc_counter {
+	color: #fff;
+	width: 90%;
+	font-weight: 300;
+	
+}
+
+
+#outrosArtistas {
+	background: #231f20 url(../images/bg-artistas.jpg) no-repeat center right;
+	color: #fff;
+	
+
+}
+
+#outrosArtistas h2 {
+	font-weight: 300 !important;
+}
+
+/* exposicao */
+
+.infoexpo {
+	background: #231f20;
+	color: #828282;
+}
+
+.infoexpo hr {
+	background: #828282;
+}
+
+.infoexpo .info {
+
+}
+
+
+/* ricardo camargo */
+
+.page-template-template-rcamargo .wp-container-3 {
+	gap: 1em;
+}
+
+
+
+
+/* blog */
+
+.blogmain h1 {
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.blogmain h2,.blogmain h2 a {
+	font-weight: 400;
+	font-size:1.5rem;
+}
+
+.widget-area ul,.widget-area ol {
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+.blogmain a {
+	font-weight: 300;
+	color: #000;
+	
+}
+
+.blogmain a:hover, 
+.blogmain a:active, 
+.blogmain a:focus
+{
+	color: #6d0100;
+	text-decoration: underline;
+}
+
+.entry-footer span {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+/* a galeria */
+#colecaoContent .headingBig,#colecaoContent .headingSmall {
+	color: #6d0100;
+}
+
+#historiaContent .seeall, #colecaoContent .seeall {
+	color: #000;
+}
+
+#colecaoContent .boxtext br {
+	display: none;
+}
+
+
+.coltext {
+	justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* contato */
+
+#contatoContent .headingBig,#contatoContent .headingSmall {
+	color: #6d0100;
+}
+
+
+#contatoContent input[type="submit"] {
+	background: #231f20;
+	color: #fff;
+	font-weight: 300;
+	border-radius: 0;
+	padding: 25px 50px;
+	line-height: 0;
+}
+
+#contatoContent input[type="text"],#contatoContent input[type="email"],#contatoContent textarea {
+	border:2px solid #888;
+	border-radius: 0;
+}
+
+#contatoContent #linksContato a {
+	font-size: 20px;
+	color: #888;
+	display: inline-block;
+	margin-right: 30px;
+	padding-left: 45px;
+	position: relative;
+	height: 40px;
+	text-decoration: underline;
+}
+
+#contatoContent #linksContato a:before {
+	content: '';
+	width: 35px;
+	height: 40px;
+	position: absolute;
+	top: -4px;
+	left: 0;
+}
+
+#contatoContent #linksContato a.como_chegar:before {
+	background: url('../images/contato/mapa.jpg') no-repeat 0 0;
+}
+#contatoContent #linksContato a.entre_em_contato:before {
+	background: url('../images/contato/contato.jpg') no-repeat 0 0;
+}
+
+
+
+/* a venda */
+
+body.page-template-template-avenda {
+	background: url('../images/a_venda/bg.jpg');
+}
+
+#avenda .work {
+	position: relative;
+}
+#avenda .details {
+	position: absolute;
+	top: 30px;
+	right: 25px;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: url('../images/a_venda/detalhes.png') no-repeat center center;
+	font-size: 0;
+}
+
+#avenda .workdetails {
+	position: absolute;
+	bottom: 30px;
+	left: 35px;
+	color: #fff;
+	text-align: left;
+	width: 60%;
+
+}
+
+#avenda .workdetails .worktitle {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#avenda .workdetails .workartist {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+
+/* exposições */
+
+
+
+#expoAnteriores {
+	background:url('../images/exposicoes/bg_anteriores.jpg');
+}
+#catfilter,#datefilter {
+	height: 50px;
+}
+#searchfilter {
+	position: relative;
+}
+#searchfilter .submit {
+	position: absolute;
+	top: 0;
+	right: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:#221f1f;
+	color: #fff;
+	width: 55px;
+	height: 100%;
+}
+
+#emcartaz .expo {
+	position: relative;
+}
+#emcartaz .details {
+	position: absolute;
+	top: 30px;
+	right: 25px;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: url('../images/a_venda/detalhes.png') no-repeat center center;
+	font-size: 0;
+}
+
+#emcartaz .workdetails {
+	position: absolute;
+	bottom: 30px;
+	left: 35px;
+	color: #fff;
+	text-align: left;
+	width: 60%;
+
+}
+
+#emcartaz .workdetails .worktitle {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#emcartaz .workdetails .workartist {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+#emcartaz .workdate {
+	position: absolute;
+	top: 30px;
+	left: 35px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.gridexpo {
+	display: grid; 
+
+   grid-template-rows: 1fr;
+   grid-template-columns: 2.1fr 1fr;
+   
+   gap: 10px;
+   
+   height: 100%;
+}
+
+.expo1 {
+
+   background-color: #B7D775; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+   
+}
+
+
+/* interna obras */
+
+.imgobra img {
+	width: 100%;
+	height: auto;
+}
+.boxartista {
+	position: relative;
+}
+.thumbartista {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.thumbartista img {
+	max-width: 90px;
+	border-radius: 50px;
+}
+
+.infoobra a,.infoobra a:hover,.infoobra a:active,.infoobra a:focus {
+	color: #6d0100;
+	font-weight: 500;
+
+}
